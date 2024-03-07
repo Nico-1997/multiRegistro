@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Registro</title>
+</head>
+<body>
+    <form id="card-register" class="style-card">
+        <span class="heading">Registro</span>
+        <div class="div-input">
+            <div class="div-input-element">
+                <label class="label-text">Nombre</label>
+                <input id="input-name" class="name-style" placeholder="Nombre">
+            </div>
+            <div class="div-input-element">
+                <label for="label-email" class="email-style">Email</label>
+                <input type="email" id="email-input" class="email-style" placeholder="Email@">
+            </div>
+        </div>
+        <button id="button-1" class="button-1-style">Siguiente</button>
+    </form>
+    <section id="card-topics" class="topics-style">
+        <span class="heading">Que temas te interesan?</span>
+        <div class="temas">
+            <div class="temas-element">
+                <span>Desarrollador de software</span>
+            </div>
+            <div class="temas-element">
+                <span>Experiencia de usuario</span>
+            </div>
+            <div class="temas-element">
+                <span>Diseñador grafico</span>
+            </div>
+        </div>
+        <button id="button-2" class="button-2-style">Siguiente</button>
+    </section>
+    <section id="card-sumary" class="sumaty-style">
+        <span class="heading">Resumen</span>
+        <div class="div-sumary">
+            <div class="div-sumary-tag">
+                <div class="tags">
+                    <label class="label-tag">Nombre:</label>
+                    <span id="nombre-tag" class="tag-content"></span>
+                </div>
+                <div class="tags">
+                    <label class="label-tag">Email:</label>
+                    <span id="email-tag" class="tag-content"></span>
+                </div>
+                <div class="tags">
+                    <label class="label-tag">Nombre:</label>
+                    <span id="nombre-tag" class="tag-content"></span>
+                </div>
+            </div>
+        </div>
+        <button onclick="Window.alert('Exitos')" id="btn-confirm" class="button">Confirmado</button>
+    </section>
+    <section class="pasos">
+        <span class="span-pasos"></span>
+            <div class="pasos-circles">
+                <div class="circle-pasos-steped"><div class="circle-pasos"></div></div>
+                <div class="circle-pasos-steped"><div class="circle-pasos"></div></div>
+                <div class="circle-pasos-steped"><div class="circle-pasos"></div></div>
+            </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
